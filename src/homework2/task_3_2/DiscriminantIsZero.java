@@ -7,7 +7,7 @@ public class DiscriminantIsZero implements TypeOfDiscriminant {
         x = (float) -(b / (2 * a));
     }
 
-    Float getResult() {
+    public Float getResult() {
         return x;
     }
 

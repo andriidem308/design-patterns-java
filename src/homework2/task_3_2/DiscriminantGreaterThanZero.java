@@ -13,7 +13,7 @@ public class DiscriminantGreaterThanZero implements TypeOfDiscriminant {
         x1_x2.add(x2);
     }
 
-    ArrayList<Float> getResult() {
+    public ArrayList<Float> getResult() {
         return x1_x2;
     }
 

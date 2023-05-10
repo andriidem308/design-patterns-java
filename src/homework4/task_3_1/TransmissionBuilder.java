@@ -1,4 +1,4 @@
-package homework4.task_3_2;
+package homework4.task_3_1;
 
 
 public class TransmissionBuilder {

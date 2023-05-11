@@ -1,4 +1,4 @@
-package homework6.task_3_1;
+package homework6.task_6_3_1;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,4 +1,4 @@
-package homework6.task_4_3_1;
+package homework6.task_6_3_2;
 
 public class Wheel {
     private final WheelsMaterialType materialType;

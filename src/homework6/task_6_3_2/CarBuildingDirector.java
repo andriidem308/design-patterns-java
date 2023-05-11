@@ -1,7 +1,5 @@
-package homework6.task_4_3_1;
+package homework6.task_6_3_2;
 
-
-import homework6.task_6_3_1.TextEditor;
 
 public class CarBuildingDirector {
     private Builder builder;

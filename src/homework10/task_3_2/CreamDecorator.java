@@ -1,5 +1,6 @@
 package homework10.task_3_2;
 
+
 public class CreamDecorator extends Decorator{
     public CreamDecorator(Beverage beverage) {
         super(beverage);

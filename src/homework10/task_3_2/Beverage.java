@@ -1,5 +1,6 @@
 package homework10.task_3_2;
 
+
 abstract public class Beverage {
 
     public abstract String description();

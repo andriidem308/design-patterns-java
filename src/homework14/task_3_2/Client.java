@@ -24,13 +24,13 @@ public class Client {
         AbstractOpener xlsOpener = new XLSOpener();
         AbstractOpener xlsxOpener = new XLSXOpener();
 
-        docOpener.setNext(docxOpener);
-        docxOpener.setNext(jpgOpener);
-        jpgOpener.setNext(pdfOpener);
-        pdfOpener.setNext(pngOpener);
-        pngOpener.setNext(pptxOpener);
-        pptxOpener.setNext(xlsOpener);
-        xlsOpener.setNext(xlsxOpener);
+        docOpener.setNextOpener(docxOpener);
+        docxOpener.setNextOpener(jpgOpener);
+        jpgOpener.setNextOpener(pdfOpener);
+        pdfOpener.setNextOpener(pngOpener);
+        pngOpener.setNextOpener(pptxOpener);
+        pptxOpener.setNextOpener(xlsOpener);
+        xlsOpener.setNextOpener(xlsxOpener);
 
         // Create Chain of responsibility to open file by correct program according to the extension.
         for (String file : files) {

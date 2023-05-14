@@ -1,5 +1,6 @@
 package homework12.task_2_2;
 
+
 public class Wheel {
     public enum Material {
         Steel, //  стальний диск

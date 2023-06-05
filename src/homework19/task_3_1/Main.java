@@ -3,7 +3,7 @@ package homework19.task_3_1;
 public class Main {
 
     public static void main(String[] args) {
-        FileReader fileReader = new FileReader("Lab19/src/task_19_3_1/resources/input01.txt");
+        FileReader fileReader = new FileReader("homework19/task_3_1/resources/input01.txt");
 
         LongestLineObserver longestLineObserver = new LongestLineObserver();
         LongestWordObserver longestWordObserver = new LongestWordObserver();
